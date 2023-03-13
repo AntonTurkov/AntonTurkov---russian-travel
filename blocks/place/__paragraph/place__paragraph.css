@@ -1,5 +1,6 @@
 .place__paragraph {
   margin: 0;
+  max-width: 484px;
   margin-bottom: 24px;
   font-style: normal;
   font-weight: normal;
@@ -8,13 +9,15 @@
   color: #FFFFFF;
 }
 
-.place__paragraph:last-of-type {
-  margin-bottom: 0;
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+  max-width: 340px;
+  font-size: 16px;
+  }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 400px) {
   .place__paragraph {
-  font-size: 16px;
-  line-height: 1.62;
+  margin: 0 16px 0;
   }
 }
