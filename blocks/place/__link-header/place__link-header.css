@@ -1,11 +1,10 @@
 .place__link-header {
-  text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 12px 0;
   margin-bottom: 12px;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 1;
+  line-height: 12 px;
   letter-spacing: 0.2em;
   color: #AAAAAA;
 }
